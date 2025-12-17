@@ -11,5 +11,5 @@ jobs:
           skopeo copy \
             --dest-creds ${{ secrets.ALIYUN_USERNAME }}:${{ secrets.ALIYUN_PASSWORD }} \
             docker://wantcat/trendradar:latest \
-            docker://registry.cn-hangzhou.aliyuncs.com/你的命名空间/trendradar:latest
+            docker://crpi-63nlsv5c943i1n16.cn-shanghai.personal.cr.aliyuncs.com/hesselong/trendradar:latest
 
