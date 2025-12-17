@@ -10,6 +10,6 @@ jobs:
         run: |
           skopeo copy \
             --dest-creds ${{ secrets.ALIYUN_USERNAME }}:${{ secrets.ALIYUN_PASSWORD }} \
-            docker://wantcat/trendradar:latest \
-            docker://crpi-63nlsv5c943i1n16.cn-shanghai.personal.cr.aliyuncs.com/hesselong/trendradar:latest
+            docker://wantcat/trendradar-mcp:latest \
+            docker://crpi-63nlsv5c943i1n16.cn-shanghai.personal.cr.aliyuncs.com/hesselong/trendradar-mcp:latest
 
